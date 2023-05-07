@@ -170,7 +170,16 @@
     display: none;
   }
 }
-
+@keyframes text {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 .intro__message {
   flex: none;
   width: 50.9rem;
@@ -178,7 +187,11 @@
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.27;
+<<<<<<< HEAD
   @include slow-text-show;
+=======
+  animation: text 1.5s ease-in-out;
+>>>>>>> 7283a81 (Добавлена анимация к ОТГАДАЙ ПЕРВЫЙМ)
 
   @media (min-width: $stop-scaling) {
     width: 509px;
