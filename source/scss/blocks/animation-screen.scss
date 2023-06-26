@@ -91,12 +91,14 @@
 }
 
 .history-sliders-color-two {
+
   .page-header__menu{
     a:hover {
       color: $c-blue;
 
 
 .history-sliders-color-two {
+
   .slider__control {
     &:hover {
       color: $c-blue;
@@ -126,7 +128,6 @@
           background-color: $c-blue;
         }
       }
-
     }
   }
   .social-block__toggler{
@@ -148,11 +149,9 @@
   }
 }
 .history-sliders-color-three{
-
   .page-header__menu{
     a:hover {
       color: $c-light-blue;
-
   .slider__control {
     &:hover {
       color: $c-light-blue;
@@ -182,7 +181,6 @@
           background-color: $c-light-blue;
         }
       }
-
     }
   }
   .social-block__toggler{
@@ -204,11 +202,9 @@
   }
 }
 .history-sliders-color-four{
-
   .page-header__menu{
     a:hover {
       color: $c-dark;
-
   .slider__control {
     &:hover {
       color: $c-dark;
@@ -238,7 +234,6 @@
           background-color: $c-dark;
         }
       }
-
     }
   }
   .social-block__toggler{
@@ -259,7 +254,6 @@
     }
   }
 }
-
 //.history-sliders {
 //  .page-header__menu {
 //    a {
@@ -309,5 +303,7 @@
     transform: translateY(0px);
     color: white;
   }
+}
+
 }
 
